@@ -1,0 +1,99 @@
+/* RegisterStyles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("E:\doc-appointment\bgimage.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  }
+  
+  .register-form {
+    background-color: #ffffff9f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    width: 400px; /* Adjust the width as needed */
+  }
+  
+  .register-form h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-item-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #0688a9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003541;
+  }
+  
+  .link-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .link-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* RegisterStyles.css */
+
+.registration-link {
+    margin-right: 100px; /* Add space between the link and the button */
+    color: #000; /* Set link color to black */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold;
+  }
+  
+  .registration-link:hover{
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .custom-table-row {
+    background-color: #ffffff9f !important; /* Set background color */
+  }
