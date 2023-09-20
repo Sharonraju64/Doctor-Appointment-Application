@@ -20,9 +20,9 @@ app.use(express.json());
 app.use(moragan("dev"));
 
 //routes
-app.use("/api/v1/user", require("../routes/userRoutes"));
-app.use("/api/v1/admin", require("../routes/adminRoutes"));
-app.use("/api/v1/doctor", require("../routes/doctorRoutes"));
+app.use("/api/v1/user", require("../server/middlewares/routes/userRoutes"));
+app.use("/api/v1/admin", require("../server/middlewares/routes/adminRoutes"));
+app.use("/api/v1/doctor", require("../server/middlewares/routes/doctorRoutes"));
 
 
 //port

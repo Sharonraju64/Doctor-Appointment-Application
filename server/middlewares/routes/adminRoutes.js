@@ -3,8 +3,8 @@ const {
   getAllUsersController,
   getAllDoctorsController,
   changeAccountStatusController
-} = require("../controllers/adminCtrl");
-const authMiddleware = require("../middlewares/authMiddleware");
+} = require("../../controllers/adminCtrl");
+const authMiddleware = require("../authMiddleware");
 
 const router = express.Router();
 

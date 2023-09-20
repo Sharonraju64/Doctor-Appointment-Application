@@ -9,8 +9,8 @@ const {loginController,
       bookeAppointmnetController,
       bookingAvailabilityController,
       userAppointmentsController,
-    } = require('../controllers/userCtrl');
-const authMiddleware = require('../middlewares/authMiddleware')
+    } = require('../../controllers/userCtrl');
+const authMiddleware = require('../authMiddleware')
 
 //router object
 const router = express.Router()
